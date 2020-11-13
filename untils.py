@@ -8,7 +8,8 @@ import networkx as nx
 import numpy as np
 import scipy.sparse as sp
 
-
+# 添加两行注释
+# 添加两行注释
 def parse_index_file(filename):
     """Parse index file."""
     index = []
