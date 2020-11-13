@@ -25,6 +25,7 @@ class GraphAttention(Layer):
         if attn_heads_reduction not in {'concat', 'average'}:
             raise ValueError('Possbile reduction methods: concat, average')
 
+        # 添加一行注释
         self.F_ = F_  #经过一层注意力机制层后节点的维度
         self.attn_heads = attn_heads  #指的是K个注意力权值
         self.attn_heads_reduction = attn_heads_reduction 
